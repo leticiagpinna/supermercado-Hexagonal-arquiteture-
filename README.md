@@ -4,7 +4,7 @@ Este é um projeto de backend para gerenciamento de um sistema de supermercado, 
 
 ## 🚀 Tecnologias Utilizadas
 
-- **Java 17**
+- **Java 24**
 - **Spring Boot 3+**
 - **Spring Web**
 - **Spring Data MongoDB**
