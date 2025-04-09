@@ -1,0 +1,21 @@
+### Adicionar produto ao carrinho
+POST http://localhost:8080/api/carrinho/cliente123/adicionar
+Content-Type: application/json
+
+{
+  "id": "1",
+  "nome": "Arroz",
+  "descricao": "Tipo 1, pacote 1kg",
+  "preco": "8.50",
+  "quantidadeEstoque": 20
+}
+
+###
+
+### Obter carrinho
+GET http://localhost:8080/api/carrinho/cliente123
+
+###
+
+### Remover produto do carrinho
+DELETE http://localhost:8080/api/carrinho/cliente123/remover/1
